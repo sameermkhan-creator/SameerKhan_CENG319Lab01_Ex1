@@ -8,11 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link bottomFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+
 public class bottomFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -34,7 +38,7 @@ public class bottomFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment bottomFragment.
+     * @return A new instance of fragment bottom.
      */
     // TODO: Rename and change types and number of parameters
     public static bottomFragment newInstance(String param1, String param2) {
