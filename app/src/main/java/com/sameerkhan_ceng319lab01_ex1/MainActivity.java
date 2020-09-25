@@ -39,10 +39,29 @@ public class MainActivity extends AppCompatActivity {
         });
 
 }
+
+    public void onPause() {
+
+        super.onPause();
+
+    }
+
+    public void onResume() {
+
+        super.onResume();
+    }
+
+    public void onDestroy(){
+        super.onDestroy();
+    }
+
+
+
     @Override
     protected void onStart() {
         super.onStart();
         Toast.makeText(getApplicationContext(), "List fragment has started!", 2).show();
+
 
     }
 }

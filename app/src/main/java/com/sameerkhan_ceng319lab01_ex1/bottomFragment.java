@@ -59,6 +59,22 @@ public class bottomFragment extends Fragment {
         }
     }
 
+    public void onPause() {
+
+        super.onPause();
+
+    }
+
+    public void onResume() {
+
+        super.onResume();
+    }
+
+    public void onDestroy(){
+        super.onDestroy();
+    }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
